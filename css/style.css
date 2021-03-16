@@ -66,6 +66,10 @@
         transition: transform 0.8s ease-out;
         transition-delay: 1.6s;
     } */
+
+    #section01{
+        background-color: black;
+    }
    
 
 
