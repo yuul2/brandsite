@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');font-family: 'Nanum Gothic', sans-serif;
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');font-family: 'Nanum Gothic', sans-serif; */
 @font-face {
     font-family: 'Corporate S Regular';
     src: url('CorporateS-Regular.eot');
@@ -8,8 +8,66 @@
     font-weight: normal;
     font-style: normal;
     }
+
     *{
         list-style: none;
         text-decoration: none;
     }
+    .xi-align-right{
+        font-size: 2rem;
+        color: #ed1c24;
+    }
+    .mar-20{
+        margin: 0 20px;
+    }
+    .f-red{
+        font-family: 'Corporate S Regular';
+        color:#fff;
+        font-weight: 600;
+        opacity: .6;
+    }
+    .f-red:hover{
+        color: #ed1c24;
+    }
+    .banner>img{
+        width: 100%;
+        margin: 10% auto;
+    }
+    .banner{
+        /* height: 100%;
+        width: 100%; */
+        /* position: relative; */
+        /* overflow: hidden; */
+    animation: kv_intro 1s ease-out;
+    animation-delay:  1s;
+    transition-delay: 1s;
+    transform: matrix3d(0.581, 0, 0, 0, 0, 0.69, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+   
+    @keyframes kv_intro{
+        0%{
+            transform: scale(1) rotateX(0deg) rotateY(0deg);
+        }
+        20% {
+            transform: scale(1) rotateX(0deg) rotateY(
+        0deg);}
+        60% {
+            transform: matrix3d(0.7, -0.05645, 0.2, 0, 0.03, 0.82, 0, 0, 0, 0, 1, 0, -43, 50, 0, 1);
+        }
+        100% {
+            transform: matrix3d(0.581, 0, 0, 0, 0, 0.69, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        }
+    }
+    /* .banner img{ 
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        transition: transform 0.8s ease-out;
+        transition-delay: 1.6s;
+    } */
+   
+
+
     
+  
