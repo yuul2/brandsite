@@ -38,10 +38,82 @@
         color: #ff7200;
         font-size: 1rem;
     }
+    .banner{
+        position: relative;
+    }
     .banner>img{
         width: 50%;
-        justify-content: center;
-    }
+        margin: 18% 0;
+     }
+     .text-margin{
+        position: absolute;
+        top: 24%;
+        left: 5%;
+        font-family: 'Helvetica LT Std';
+        font-weight: 700;
+        color: #ff7200;
+        font-size: 5rem;
+     }
+     .text-margin-bottom{
+         position: absolute;
+         bottom: 25%;
+         right: 5%;
+         font-family: 'Helvetica LT Std';
+         font-weight: 700;
+         color: #ff7200;
+         font-size: 5rem;
+     }
+     /* section01 End */
+
+
+
+
+
+
+
+
+
+
+
+
+     @media(max-width:769px){
+        .text-margin{           
+            top: 20%;
+            left: 0%;               
+            font-size: 3rem;
+         }
+         .text-margin-bottom{
+             bottom: 20%;
+             right: 0;
+             font-size: 3rem;
+         }
+         /* section01 End */  
+
+     }
+  
+
+     @media(max-width:541px){
+        .text-margin{                    
+            font-size: 1.8rem;
+         }
+         .text-margin-bottom{
+          font-size: 1.8rem;
+         }
+         /* section01 End */  
+
+     }
+
+     @media(max-width:321px){
+        .text-margin{                    
+            font-size: 1rem;
+         }
+         .text-margin-bottom{
+          font-size: 1rem;
+          bottom: 15%;
+         }
+         /* section01 End */  
+
+     }
 
     
   
