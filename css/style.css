@@ -1,77 +1,47 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');font-family: 'Nanum Gothic', sans-serif; */
-@font-face {
-    font-family: 'Corporate S Regular';
-    src: url('CorporateS-Regular.eot');
-    src: url('CorporateS-Regular.eot?#iefix') format('embedded-opentype'),
-    url('CorporateS-Regular.woff') format('woff'),
-    url('CorporateS-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-
-    *{
+ * {
         list-style: none;
         text-decoration: none;
     }
+    @font-face {
+        font-family: 'Helvetica LT Std';
+        src: url('HelveticaLTStd-Roman.eot');
+        src: url('HelveticaLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+            url('HelveticaLTStd-Roman.woff2') format('woff2'),
+            url('HelveticaLTStd-Roman.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    
     .xi-align-right{
         font-size: 2rem;
-        color: #ed1c24;
+        color: #ff7200;
+        cursor: pointer;
     }
     .mar-20{
         margin: 0 20px;
     }
     .f-red{
         font-family: 'Corporate S Regular';
-        color:#fff;
+        color:#ff7200;
         font-weight: 600;
         opacity: .6;
     }
     .f-red:hover{
-        color: #ed1c24;
+        color:#ff7200;
+        opacity: 1;
+    }
+    .logo{
+        font-family: 'Helvetica LT Std';
+        font-weight: 700;
+        color: #ff7200;
+        font-size: 1rem;
     }
     .banner>img{
-        width: 100%;
-        margin: 10% auto;
+        width: 50%;
+        justify-content: center;
     }
-    .banner{
-        /* height: 100%;
-        width: 100%; */
-        /* position: relative; */
-        /* overflow: hidden; */
-    animation: kv_intro 1s ease-out;
-    animation-delay:  1s;
-    transition-delay: 1s;
-    transform: matrix3d(0.581, 0, 0, 0, 0, 0.69, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    }
-   
-    @keyframes kv_intro{
-        0%{
-            transform: scale(1) rotateX(0deg) rotateY(0deg);
-        }
-        20% {
-            transform: scale(1) rotateX(0deg) rotateY(
-        0deg);}
-        60% {
-            transform: matrix3d(0.7, -0.05645, 0.2, 0, 0.03, 0.82, 0, 0, 0, 0, 1, 0, -43, 50, 0, 1);
-        }
-        100% {
-            transform: matrix3d(0.581, 0, 0, 0, 0, 0.69, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-        }
-    }
-    /* .banner img{ 
-        position: relative;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%) scale(1);
-        transition: transform 0.8s ease-out;
-        transition-delay: 1.6s;
-    } */
-
-    #section01{
-        background-color: black;
-    }
-   
-
 
     
   
