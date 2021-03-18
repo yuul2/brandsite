@@ -118,6 +118,16 @@
         transform: translate3d(0%, 0px, 0px);
       } */
 
+      /* page3 End */
+      .background-f{
+          width: 100%;
+          background-image: url(../images/a89cad0421739f0409401860f847feaa540c10c4.jfif);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+
 
      @media(max-width:769px){
         .text-margin{           
