@@ -121,6 +121,7 @@
       /* page3 End */
       .background-f{
           width: 100%;
+          height: 500px;
           background-image: url(../images/a89cad0421739f0409401860f847feaa540c10c4.jfif);
         background-position: center;
         background-attachment: fixed;
