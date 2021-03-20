@@ -372,7 +372,7 @@ Primary style
       margin-right: 3%;
     }
     .pad-3{
-      padding-right: 3%;
+      padding-left: 3%;
     }
 /* page3 End */
 
@@ -394,11 +394,15 @@ Primary style
     .video{
       padding: 10% 0;
     }
+    .bg-bk{
+      background-color: #000;
+    }
 /* page4 End     */
 
 .bg-color{
   background-color: #ff7200;
   margin: 0 !important;
+
 }
 .logo2{
   
@@ -406,6 +410,7 @@ Primary style
   color: #fff;
   font-family: 'Helvetica LT Std';
   font-weight: 700;
+  padding-top: 5%;
 
 }
 .info-text{
@@ -488,6 +493,17 @@ Primary style
       width: 100%;
       height: 100px
     }  
+
+    .logo2{
+  
+      font-size: 1rem;
+      padding-top: 3%;
+    
+    }
+    .info-text{
+      font-size: .8rem;
+      font-weight: 500;
+    }
         
      }
 
@@ -503,7 +519,7 @@ Primary style
          }
         /* page1 End */  
         
-            }
+         
              
             /* slide end */
        
@@ -514,6 +530,12 @@ Primary style
              font-size: 0.5rem;
          }
          /* page2 End */
+
+         .background-f{
+         
+          height: 200px;}
+
+          /* hold img */
          .page03-text{
             font-size: .5rem;
         }
@@ -521,7 +543,17 @@ Primary style
           width: 94%;
           margin: 0 3% ;
         }
+        /* page3 end */
+        .logo2{
+  
+          font-size: .8rem;
+          padding-top: 3%;
+        
+        }
+        .info-text{
+          font-size: .5rem;
 
+        }
      }
 
     
