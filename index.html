@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.min.js"></script>
     <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
 </head>
-<body onscroll="change_scroll()">
+<body>
     <header >
-       
-            
-        <nav class="navbar navbar-expand-md bg-light justify-content-center">
-            <div class="logo navbar-brand">
+     <nav class="navbar navbar-expand-md bg-light fixed-top" > 
+            <div class="logo navbar-brand" data-aos="zoom-in" data-aos-duration="2000">
                 Dieter Rams   
             </div>
-            <div class="navbar">
+            <div class="collapse navbar-collapse justify-content-center" id="navi" data-aos="zoom-in" data-aos-duration="3000">
                 <ul class="navbar-nav">
                     <li class="nav-item mar-20">
                         <a href="#" class="nav-link f-red">Home</a>
@@ -41,9 +41,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="nav-btn navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <i class="xi-align-right"></i>
+           
+            <div class="navbar-header">
+                <div class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navi"> <i class="xi-align-right"></i></div>
             </div>
+
+          
         </nav>
     </header>
 
@@ -55,9 +58,9 @@
 
             <div class="col-6 text-center">
                 <div class="banner">
-                    <h1 class="text-margin">Dieter</h1>
+                    <h1 class="text-margin"data-aos="fade-right"data-aos-duration="3000">Dieter</h1>
                     <img src="images/dieterrams-768x900.jpg" alt="">
-                    <h1 class="text-margin-bottom">Rams</h1>
+                    <h1 class="text-margin-bottom" data-aos="fade-left" data-aos-duration="3000">Rams</h1>
                          </div>
 
             </div>
@@ -86,21 +89,19 @@
 
         <div class="row pad-10">
             <div class="col-lg-2"></div>
-            <div class="col-lg-4 text-center about-img">
+            <div class="col-lg-4 text-center about-img"data-aos="zoom-in" data-aos-duration="3000">
                 <img src="images/ramsformidablemagbraun_01-400x251.jpg" alt="">  
             </div>
             <div class="col-lg-4">
                 <div class="text-box2 ">
-                    <div class="explain text-center">
+                    <div class="explain text-center" data-aos="zoom-in" data-aos-duration="3000">
                         <p>A firm believer in Functionalism, Dieter Rams rationalist vision of design is clearly represented by the phrase “Less, but Better”.<br> “Design Should Not Dominate things. Not dominate people.<br> It Should Help People”<br> -Dieter Rams.</p> 
                      </div>
                 </div>   
             </div>
 
             <div class="col-lg-2">
-                <!-- <div class="title text-right">
-                    <p class="parallax-text skrollable skrollable-between" data-bottom="transform:translate3d(30%,0,0)" data-top="transform:translate3d(0%,0,0)">Dieter Rams</p> 
-                 </div> -->
+                
             </div>
             
         </div>
@@ -113,7 +114,8 @@
    
         <div class="row pad-10">
             
-          <div class="col-4 text1">
+          <div class="col-lg-4 col-md-12 text1" data-aos="fade-up"
+          data-aos-duration="3000">
             <h1 class="color-or">1</h1>
             <h2 class="f-s-3">Good design is innovative</h2>
             <p class="f-s-13">The possibilities for innovation are not, by any means, exhausted. Technological development is always offering new opportunities for innovative design. But innovative design always develops in tandem with innovative technology, and can never be an end in itself.</p>
@@ -121,29 +123,70 @@
                 <img src="images/upload-c59c6490-d966-11e4-9cf2-331473552577.jpeg" alt="">
             </div>
           </div>
-          <div class="col-4  text2">
-            <h1 class="color-or">2</h1>
-            <h2 class="f-s-3">Good design is innovative</h2>
-            <p class="f-s-13">The possibilities for innovation are not, by any means, exhausted. Technological development is always offering new opportunities for innovative design. But innovative design always develops in tandem with innovative technology, and can never be an end in itself.</p>
+          <div class="col-lg-4 col-md-12 text2"  data-aos="fade-up"
+          data-aos-duration="3000" >
+            <h1 class="color-or">7</h1>
+            <h2 class="f-s-3">Good design is long-lasting</h2>
+            <p class="f-s-13">
+                It avoids being fashionable and therefore never appears antiquated. Unlike fashionable design,<br> it lasts many years – even in today’s throwaway society.</p>
+                <div class="imgbox2">
+                    <img src="images/170.jpeg" alt="">
+                </div>
            
           </div>
-          <div class="col-4 text3">
-            <div class="imgbox">
+          <div class="col-lg-4 col-md-12  text3"data-aos="fade-up"
+          data-aos-duration="3000">
+            <div class="imgbox2">
                 <img src="images/upload-3f8f8760-d966-11e4-a7c2-27fd6e81bee1.jpeg" alt="">
             </div>
-            <h1 class="color-or">3</h1>
-            <h2 class="f-s-3">Good design is innovative</h2>
-            <p class="f-s-13">The possibilities for innovation are not, by any means, exhausted. Technological development is always offering new opportunities for innovative design. But innovative design always develops in tandem with innovative technology, and can never be an end in itself.</p>
+            <h1 class="color-or">9</h1>
+            <h2 class="f-s-3">Good design is environmentally-friendly</h2>
+            <p class="f-s-13">
+                Design makes an important contribution to the preservation of the environment. It conserves resources and minimises physical and visual pollution throughout the lifecycle of the product.</p>
            
           </div>
             
         </div>
         <div class="row">
+            <div class="fixedimg2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>       
+            
+            <div class="col-8">
+                <div class="video">
+                    <video autoplay="" loop="" muted="" preload="auto">
+                        <source src="images/620_LineDrawing_AE_v009.mp4" type="video/mp4">
+                      </video>
+                      </div>
+            </div>
+            <div class="col-2"></div>
+            </div>
+
+
+            <footer>
+                <div class="row">
+                <div class="col-12 text-center bg-color">
+                    <div class="logo2">
+                        <h1>Dieter Rams</h1>
+                    </div>
+                    <div class="info-text">
+                        <p>Design by yuulstuio</p>
+                        <p>© 2021</p>
+                    </div>
+                </div>
+                </div>
+                </footer>
+                
+
+           
+            
            
         </div>
        
         </div>
-        </div> 
+  
     
            
        
@@ -158,7 +201,16 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/skrollr.min.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.0/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+
+
+        AOS.init();
+
+    </script>
+
+
     
 </body>
 </html>
