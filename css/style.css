@@ -378,20 +378,28 @@ Primary style
         font-size: 4rem;
         font-weight: 700;
         color: #ff7200;
+       
     }
     .f-s-3{
         font-family: 'Helvetica LT Std';
         font-size: 3rem;
         font-weight: 700;
+        
     }
     .f-s-13{
         font-family: 'Helvetica LT Std';
         font-size: 1.3rem;
         font-weight: 700;
+
     }
     .imgbox>img{
         width: 100%;
+       
     }
+
+
+
+
 
      @media(max-width:769px){
         .text-margin{           
