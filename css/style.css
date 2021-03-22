@@ -261,12 +261,10 @@ Primary style
         color:#ff7200;
         opacity: 1;
     }
-    .logo{
-        font-family: 'Helvetica LT Std';
-        font-weight: 700;
-        color: #ff7200;
-        font-size: 1rem;
+    .logo>img{
+      width: 80px;
     }
+   
   
     /* navigation End */
 
