@@ -43,7 +43,7 @@ Primary style
   
   .cd-intro {
     position: relative;
-    height: 160px;
+    padding: 5% 0;
     line-height: 230px;
     text-align: center;
   }
@@ -393,7 +393,6 @@ Primary style
     
     .pad-5{
       background: #e7e7d9;
-
     }
     .xi-align-right{
         font-size: 2rem;
@@ -404,21 +403,7 @@ Primary style
     .mar-20{
         margin: 0 20px;
     }
-    .menu>li>a{
-        font-family: 'Helvetica LT Std';
-        color:#ff7200;
-        font-weight: 600;
-        opacity: .6;
-        cursor: pointer;
-    }
-    .menu>li{
-      cursor: pointer;
-    }
-    .f-red:hover{
-        color:#ff7200;
-        opacity: 1;
-       
-    }
+  
     .logo>img{
       width: 60px;
       margin: 10%;
@@ -439,18 +424,18 @@ Primary style
         top: 24%;
         left: 5%;
         font-family: 'Helvetica LT Std';
-        font-weight: 700;
+        font-weight: 800;
         color: #ff7200;
-        font-size: 5rem;
+        font-size: 7rem;
      }
      .text-margin-bottom{
          position: absolute;
          bottom: 25%;
          right: 5%;
          font-family: 'Helvetica LT Std';
-         font-weight: 700;
+         font-weight: 800;
          color: #ff7200;
-         font-size: 5rem;
+         font-size: 7rem;
      }
      /* page1 End */
 
@@ -465,14 +450,18 @@ Primary style
 
 
      .explain>p{
-        font-family: 'Helvetica LT Std';
-        font-size: 1.2rem;
+        font-family: 'GyeonggiTitleM';
+        font-size: 1.5rem;
      }
      .explain{
-        padding: 14%;
+        padding-top: 35%;
+        padding-left: 2%;
      }
      .about-img>img{
          width: 100%;
+     }
+     .about-img{
+       padding-top: 4.8%;
      }
      .title>p{
         font-family: 'Helvetica LT Std';
